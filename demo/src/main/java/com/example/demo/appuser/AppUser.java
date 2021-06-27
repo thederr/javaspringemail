@@ -35,6 +35,8 @@ public class AppUser implements UserDetails {
     private String lastName;
     private String email;
     private String password;
+    @Enumerated(EnumType.STRING)
+    //because AppUserRole is Enum we have to do the above
     private AppUserRole appUserRole;
     private Boolean locked;
     private Boolean enabled;
