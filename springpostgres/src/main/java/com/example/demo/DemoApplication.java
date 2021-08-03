@@ -11,3 +11,6 @@ public class DemoApplication {
 	}
 
 }
+
+//TODO: FIGURE OUT MAVEN EMAILSENDER DEPENDENCY ISSUE
+//TODO: IT THROWS THIS ERROR "Parameter 0 of constructor in com.example.demo.email.EmailService required a bean of type 'org.springframework.mail.javamail.JavaMailSender' that could not be found.||||Consider defining a bean of type 'org.springframework.mail.javamail.JavaMailSender' in your configuration."
